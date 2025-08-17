@@ -18,7 +18,7 @@ if openai_api_key:
 else:
 
     # Create an OpenAI client.
-    client = OpenAI(api_key=openai_api_key)
+    #client = OpenAI(api_key=openai_api_key)
 
     # Create a session state variable to store the chat messages. This ensures that the
     # messages persist across reruns.
